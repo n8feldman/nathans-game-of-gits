@@ -44,3 +44,12 @@ step 5: git merge dreamstory master
 PUSHING LOCAL REPO TO REMOTE:
 Step 1: Go to github.com
 Step 2: Click "New Repository"
+Step 3: Match the name of the repository to the name of the folder.
+Step 4: Set repo to "public"
+Note: "Add a README file" is for completely empty repositories so they have a file. We will have our own README files.
+Step 5 (Next Page): Push the existing repository from the command line. We are using "ssh".
+
+SAMPLE TO PUSH TO REMOTE ORIGIN:
+git remote add origin git@github.com:n8feldman/nathans-game-of-gits.git
+git branch -M main
+git push -u origin main
